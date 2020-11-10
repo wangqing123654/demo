@@ -1,0 +1,16 @@
+server:
+  port: 8011
+spring:
+    elasticsearch:
+      rest: 
+        uris: http://localhost:9200
+    data:
+      elasticsearch:
+        repositories:
+          enabled: true
+        cluster-name: elasticsearch  
+        cluster-nodes: 127.0.0.1:9300
+             
+                
+               
+  
